@@ -2,18 +2,18 @@
 
 favicon = "images/favicon.png"
 logo = "images/logo.png"
-logo_width = "150px"
-logo_text = "Airspace"
+logo_width = "300px"
+logo_text = "Isolated Command"
 navbar_fixed = false
-description = "This is meta description"
-author = "Themefisher"
+description = "Isolated Command | No Boundaries, No Limits"
+author = "conanzhangtech"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 address_descriptors = false
-email = "demo@email.com"
+email = "hello@isolatedcommand.com"
 copyright = "Isolated Command 2025"
 custom_script= ""
-google_tag_manager = "" # example: G-XXXXXXXXXX
-recaptcha_site_key = "xxx-xxxxxxxxxxxxxxxxxxxxxxxx"
+google_tag_manager = ""
+recaptcha_site_key = ""
 
 [contact.form]
 enable = false
