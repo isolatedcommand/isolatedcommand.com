@@ -1,0 +1,23 @@
+{
+  "media": {
+    "root": "assets/images",
+    "public": "assets"
+  },
+  "content": {
+    "root": "content"
+  },
+  "code": {
+    "root": "themes/isolatedcommand/layouts"
+  },
+  "themeConfig": [
+    "config/_default/hugo.toml",
+    "config/_default/languages.toml",
+    "config/_default/menus.de.toml",
+    "config/_default/menus.en.toml",
+    "config/_default/menus.fr.toml",
+    "config/_default/menus.it.toml",
+    "config/_default/params.toml",
+    "themes/isolatedcommand/theme.toml"
+  ],
+  "arrangement": []
+}
