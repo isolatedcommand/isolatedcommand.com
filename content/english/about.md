@@ -1,6 +1,6 @@
 ---
 title: About Our Company
-description: this is meta de
+description: this is meta 
 bg_image: images/feature-bg.jpg
 layout: about
 draft: false
