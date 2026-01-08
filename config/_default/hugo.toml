@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "isolatedcommand.com"
+baseURL = "/"
 title = "Isolated Command | No Boundaries, No Limits"
 theme = "isolatedcommand"
 timeZone = "Asia/Singapore"
