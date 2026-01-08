@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 ul {
   margin: 0;
   padding-left: 0;
@@ -21,6 +25,7 @@ a:hover {
   color: $color-primary;
 }
 
+
 blockquote {
   font-size: 18px;
   border-color: $color-primary;
@@ -30,7 +35,7 @@ blockquote {
 }
 
 .navbar-toggle .icon-bar {
-  background: $color-primary;
+  background: $text_light;
 }
 
 input[type="email"],
@@ -69,7 +74,7 @@ input[type="tel"] {
 
 .btn-main {
   background: $color-primary;
-  color: $white;
+  color: white;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -88,15 +93,15 @@ input[type="tel"] {
 
   &:hover {
     background: darken($color-primary, 20%);
-    color: $white;
+    color: white;
   }
 }
 
 
 .btn-solid-border {
-  border: 1px solid $white;
+  border: 1px solid red;
   background: transparent;
-  color: $white;
+  color: red;
 
   &:hover {
     border: 1px solid $color-primary;
@@ -231,7 +236,7 @@ input[type="tel"] {
 }
 
 .bg-dark {
-  background: #202122;
+  background: black;
 }
 
 
@@ -480,6 +485,8 @@ input[type="tel"] {
   .nav-tabs {
     border-bottom: 0;
     margin-bottom: 10px;
+   
+    
 
     li {
       margin-right: 5px;
@@ -622,6 +629,7 @@ input[type="tel"] {
 .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: $color-primary !important;
+  color: white;
 }
 
 
@@ -644,6 +652,7 @@ span.cloaked-e-mail:before {
   content: attr(data-domain) "\0040" attr(data-user);
   unicode-bidi: bidi-override;
   direction: rtl;
+  color: white;
 }
 
 @media (min-width: 992px) {

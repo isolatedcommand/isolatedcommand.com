@@ -1,5 +1,5 @@
 .navigation {
-  background: $white;
+  background: $black;
   padding: 20px 0;
 
   .navbar {
@@ -19,7 +19,8 @@
       padding-top: 10px;
 
       a {
-        color: #7b7b7b;
+        color: red;
+        //color: #3272c8;
         padding: 10px 15px;
 
         font : {
@@ -31,19 +32,22 @@
 
         &:hover,
         &:focus {
-          color: $black;
+          color: #3272c8;
+          //color: red;
           background: transparent;
         }
       }
 
       a.current {
-        color: $black;
+        color: #3272c8;
+        //color: red;
         pointer-events: none;
         cursor: default;
       }
 
       a.current-parent {
-        color: $black;
+        color: #3272c8;
+        //color: red;
       }
 
       select {
@@ -52,7 +56,8 @@
     }
 
     .current > .dropdown-toggle {
-      color: $black;
+      color: #3272c8;
+      //color: red;
     }
 
     .dropdown-menu {
@@ -60,25 +65,29 @@
       border: none;
       left: -5px;
       box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+      background: black;
 
       a {
         text-transform: none;
         font-weight: normal;
-        color: darken( $light, 47.45);
+        color: red;
+        //color: #3272c8;
         padding: 10px 20px;
         @include transition-multi (color 0.1s ease, padding 0.3s ease);
 
         &:hover {
-          background: $color-primary;
-          color: $white;
+          background: black;
+          color: #3272c8;
+          //color: red;
           padding-left: 25px;
         }
       }
 
       a.current {
         padding-left: 25px;
-        color: $white;
-        background: $color-primary;
+        color: #3272c8;
+        //color: red;
+        background: black;
       }
     }
   }
@@ -86,6 +95,8 @@
 
 .nav .open>a {
   background: transparent;
+  color: red;
+  //color: #3272c8;
 }
 
 // Change Bootstrap's default navbar collapse breakpoint of 768px to 992px (=desktop); source: https://silvawebdesigns.com/how-to-change-the-bootstrap-navbar-breakpoint/

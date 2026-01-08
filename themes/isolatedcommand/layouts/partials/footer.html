@@ -8,8 +8,10 @@
             <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
+          
         </div>
-        <p class="copyright">{{ site.Params.copyright | markdownify }}</p>
+        <hr>
+        <p class="copyright">{{ site.Params.copyright | markdownify }} | Last updated on 7 January 2026 {{ site.Params.lastupdated | markdownify }}</p>
       </div>
     </div>
   </div>

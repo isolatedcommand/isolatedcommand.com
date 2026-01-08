@@ -1,20 +1,17 @@
-# This file is for render site varibles and plugins
-# don't remove this file.
-# The actual configuration files are stored in the `config/_default/` folder.
-
-
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
-color_primary = "#655e7a"
+color_primary = "#3272c8"
 body_color = "#fff"
-text_color = "#666666"
-text_dark = "#333333"
-text_light = "#7b7b7b"
-border_color = "#ACB9C4"
+text_color = "white"
+text_red = "red"
+text_blue = "#3272c8"
+text_dark = "white"
+text_light = "white"
+border_color = "white"
 black = "#000000"
-white = "#ffffff"
-light = "#f5f5f5"
+white = "#fff"
+light = "white"
 
 # font variables
 # base font size for full website, 
@@ -33,10 +30,10 @@ font_scale = "1.25" # default is "majorThird": 1.25
 
 # go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
 # example: "Work+Sans:wght@400;500;600"
-font_primary = "Roboto:wght@300;400"
-font_primary_type = "sans-serif" # [serif/sans-serif]
-font_secondary = "Volkhov:ital@1"
-font_secondary_type = "serif" # [serif/sans-serif]
+font_primary = "Roboto+Slab:wght@300;400"
+font_primary_type = "monospace" # [serif/sans-serif]
+font_secondary = "Roboto+Slab:wght@300;400"
+font_secondary_type = "monospace" # [serif/sans-serif]
 font_icon = "Font Awesome 5 Free" # https://fontawesome.com/v5.15/icons/
 
 

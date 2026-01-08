@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   font-family: $font-primary;
   -webkit-font-smoothing: antialiased;
+  color: white
 
 }
 
@@ -20,6 +21,7 @@ h4,
 h5,
 h6 {
   font-family: $font-primary;
+  color: white;
 }
 
 h1,
@@ -64,7 +66,7 @@ h4 {
 }
 
 p {
-  color: darken( $light, 49.41);
+  color: white;
   font-size: $font-size;
   font-family: $font-primary;
 }
