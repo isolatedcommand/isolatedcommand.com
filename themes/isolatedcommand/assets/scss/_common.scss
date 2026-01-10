@@ -330,13 +330,13 @@ input[type="tel"] {
   h2 {
     color: $black;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 2;
     font-weight: 400;
   }
 
   p {
     font-size: 18px;
-    line-height: 40px;
+    line-height: 2;
     color: lighten( $black, 16.078);
     font-weight: 300;
   }
@@ -575,7 +575,7 @@ input[type="tel"] {
   font-size: 30px;
 
   i {
-    line-height: 60px;
+    line-height: 2;
   }
 }
 

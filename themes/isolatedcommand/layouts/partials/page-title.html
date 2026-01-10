@@ -5,6 +5,9 @@
         <div class="block">
           <h1><b>{{ .Title }}</b></h1>
           <h3>{{ .Params.description }}</h3>
+                <div>
+       {{ with .Params.slogan }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+      </div>
         </div>
       </div>
     </div>

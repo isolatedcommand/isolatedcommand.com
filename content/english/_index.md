@@ -6,7 +6,7 @@ banner:
   bg_overlay: false
   isolated: "Isolated_"
   command: "Command"
-  slogan: "No Boundaries, No Limits"
+  slogan: "Curiosity Starts Here"
   button1:
     enable: false
     label: "Who We Are"

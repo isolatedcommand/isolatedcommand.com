@@ -17,7 +17,7 @@
     h1 {
       font-weight: 100;
       font-size: 45px;
-      line-height: 1.33em;
+      line-height: 2;
       letter-spacing: 0.2em;
       padding-bottom: 15px;
       text-transform: uppercase;
@@ -39,7 +39,7 @@
       margin-bottom: 30px;
       color: darken( $light, 25.09803921568627);
       font-size: 18px;
-      line-height: 1.5em;
+      line-height: 2;
       font-weight: 300;
 
       @include mobile {

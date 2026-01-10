@@ -8,13 +8,13 @@ hasChildren = true
   [[main]]
   parent = "Who We Are"
   name = "Our Vision"
-  url = "our-vision"
+  url = "who-we-are/#ourvision"
   weight = 1
 
   [[main]]
   parent = "Who We Are"
   name = "Our Team"
-  url = "our-team"
+  url = "who-we-are/#ourvision"
   weight = 2
   
 [[main]]
