@@ -4,22 +4,27 @@ photo: "/images/teams/conanzhangtech.jpg"
 description: "Co-Founder and Innovator of Isolated Command"
 lastmod: 2026-01-10T00:00:00
 layout: "team"
+email: "conan_zhang@isolatedcommand.com"
 draft: false
 
 social:
 
-- icon : "fab fa-instagram"
+- icon : "fas fa-envelope"
+  link : "mailto:conan_zhang@isolatedcommand.com"
+
+- icon : "fa-brands fa-instagram"
   link : "https://www.instagram.com/conanzhangtech"
 
-- icon : "fab fa-linkedin"
+- icon : "fa-brands fa-square-linkedin"
   link : "https://www.linkedin.com/in/conanzhangtech/"
 
-- icon : "fab fa-github"
+- icon : "fa-brands fa-square-github"
   link : "https://github.com/conanzhangtech"
 
 - icon : "fab fa-discord"
   link : "https://discord.com/user/141732959534317569"
 
+quote: "at your command, order me"
 
 ---
 

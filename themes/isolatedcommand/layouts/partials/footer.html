@@ -3,15 +3,22 @@
     <div class="row">
       <div class="col-md-12">
         <div class="footer-menu">
+
+
           <ul>
+
             {{ range site.Menus.footer }}
             <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
             {{ end }}
-          </ul>
-          
+          </ul><br>
+
+                      <ul class="social-icons">
+            {{ range .Site.Params.social }}
+            <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}" style="color:red;"></i></a></li>
+            {{ end }}</ul>
         </div>
-        <hr>
-        <p class="copyright">{{ site.Params.copyright | markdownify }} | Last updated on 7 January 2026 {{ site.Params.lastupdated | markdownify }}</p>
+
+        <p class="copyright">{{ site.Params.copyright | markdownify }}</p>
       </div>
     </div>
   </div>

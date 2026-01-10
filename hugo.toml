@@ -34,7 +34,7 @@ font_primary = "Roboto+Slab:wght@300;400"
 font_primary_type = "monospace" # [serif/sans-serif]
 font_secondary = "Roboto+Slab:wght@300;400"
 font_secondary_type = "monospace" # [serif/sans-serif]
-font_icon = "Font Awesome 5 Free" # https://fontawesome.com/v5.15/icons/
+font_icon = "Font Awesome 5 Free" 
 
 
 ############################# Plugins ##############################

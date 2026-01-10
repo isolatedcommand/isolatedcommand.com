@@ -3,21 +3,27 @@ title: "Glendon ONG (MR)"
 photo: "/images/teams/xrtyu.jpg"
 description: "Co-Founder and Strategist of Isolated Command"
 lastmod: 2026-01-10T00:00:00
+email: "glendon_ong@isolatedcommand.com"
 layout: "team"
 draft: false
 
 social:
 
-- icon : "fab fa-instagram"
+- icon : "fa-regular fa-envelope"
+  link : "mailto:glendon_ong@isolatedcommand.com"
+
+- icon : "fa-brands fa-instagram"
   link : "https://www.instagram.com/xrtyulol"
 
-- icon : "fab fa-linkedin"
+- icon : "fa-brands fa-square-linkedin"
   link : "https://www.linkedin.com/in/glendon-ong"
 
-- icon : "fab fa-github"
+- icon : "fa-brands fa-square-github"
   link : "https://github.com/xrtyu"
 
+quote: "nice"
 ---
+
 
 ## **About**
 

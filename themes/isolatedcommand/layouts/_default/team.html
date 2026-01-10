@@ -7,10 +7,21 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <div class="text-center">
+          
           <figure>
             {{ if .Params.photo -}}
             <img style="border-radius: 50%;" class="img-fluid" src="{{ .Params.photo }}"><br>
 <br><br><ul class="list-inline">
+
+            
+            <figcaption>
+                        <h4><i>{{ .Params.email }}</i></h4>
+              <h2>
+              and I quote: <i>"{{ .Params.quote }}"</i>
+              </h2>
+            </figcaption> <br>
+
+
   {{ range .Params.social }}
   <li class="list-inline-item">
     <a class="share-icon" href="{{ .link | safeURL }}">

@@ -1,6 +1,6 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "The T10 Lifeline"
+description: "Saving our future generation from Brainrotting"
 draft: false
 image : "images/portfolio/work1.jpg"
 bg_image: "images/feature-bg.jpg"
