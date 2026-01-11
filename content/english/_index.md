@@ -21,8 +21,8 @@ banner:
     link: "eresources/"
   button4:
     enable: false
-    label: "Our Project"
-    link: "our-project/"
+    label: "Our Projects"
+    link: "our-projects/"
   button5:
     enable: false
     label: "Connect Now!"

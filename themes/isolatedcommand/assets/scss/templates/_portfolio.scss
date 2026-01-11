@@ -13,12 +13,12 @@
           border: 1px solid $border-color;
           padding: 8px 25px;
           cursor: pointer;
-          font-size: 15px;
-          color: lighten( $black, 20 );
+          font-size: 20px;
+          color: black;
           outline: 0;
-          background: $white;
+          background: white;
           margin: 2px;
-          border-radius: 0;
+          border-radius: 20;
           @include transition (all, 0.3s, ease);
         }
       }
@@ -33,7 +33,7 @@
 
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
     }
 
     &:hover {
@@ -102,13 +102,13 @@
     }
 
     span {
-      color: lighten( $black, 51.3 );
+      color: white;
       width: 180px;
       display: inline-block;
     }
 
     strong {
-      color: lighten( $black, 19.2 );
+      color: white;
       font-weight: normal;
     }
 
