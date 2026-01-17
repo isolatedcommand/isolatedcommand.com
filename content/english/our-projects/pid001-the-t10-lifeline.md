@@ -41,6 +41,9 @@ information:
 
 ---
 
+## Target Audience
+
+Mainly youths born in the 2010s (≤16 y/o) who constantly does random scrolling on popular social platforms (e.g tiktok, Instagram Reels, Youtube Shorts) -- STILL EDITING
 
 ## What we have identified?
 Digital “brainrot” - endless scrolling, low-quality content, and mental overload — is increasingly affecting attention, motivation, and mental clarity. 
