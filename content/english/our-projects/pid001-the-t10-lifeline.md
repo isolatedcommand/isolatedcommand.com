@@ -4,7 +4,7 @@ description: "FIGHTING BRAINROT, ONE MIND AT A TIME"
 draft: false
 image : "images/our-projects/pid001/banner.png"
 bg_image: "images/our-projects/pid001/banner.png"
-category: [ "Hackathon", "2026" ]
+category: []
 information:
   - label : "Name"
     info : "T10 Lifeline"
@@ -43,7 +43,11 @@ information:
 
 ## Target Audience
 
-Mainly youths born in the 2010s (≤16 y/o) who constantly does random scrolling on popular social platforms (e.g tiktok, Instagram Reels, Youtube Shorts) -- STILL EDITING
+Mainly youths born in the 2010s (≤16 y/o) who constantly does random scrolling on popular social media platforms (e.g TikTok, Instagram Reels, Youtube Shorts). These group of youths scrolls at an average of 3-5 hours per day. 
+
+## Our app feature
+
+Using streaks to fight brainrot.
 
 ## What we have identified?
 Digital “brainrot” - endless scrolling, low-quality content, and mental overload — is increasingly affecting attention, motivation, and mental clarity. 
@@ -60,3 +64,53 @@ To help people reduce digital brainrot and build healthier thinking habits using
 
 ## Inspiration
 We were inspired by how common the term “brainrot” has become — especially among students and young people who struggle with doomscrolling and focus. We wanted to build something that speaks their language while actually helping them reset and regain clarity.
+
+## App
+
+<div style="max-width:520px;border:1px solid #ddd;border-radius:12px;padding:12px">
+  <div id="msgs" style="height:320px;overflow:auto;white-space:pre-wrap"></div>
+  <a
+  href="https://chatgpt.com/g/g-696c49ebc85881919c6c6e727f690c10-t10-lifeline-app"
+  target="_blank"
+  rel="noopener noreferrer"
+  style="display:inline-block;padding:12px 18px;border-radius:10px;border:1px solid #ddd;text-decoration:none;"
+>
+  Open T10 Lifeline App
+</a>
+  <form id="f" style="display:flex;gap:8px;margin-top:10px">
+    <input id="t" placeholder="Type here…" style="flex:1;padding:10px;border-radius:10px;border:1px solid #ddd" />
+    <button style="padding:10px 14px;border-radius:10px;border:1px solid #ddd">Send</button>
+  </form>
+</div>
+
+<script>
+  const msgs = document.getElementById('msgs');
+  const f = document.getElementById('f');
+  const t = document.getElementById('t');
+
+  function add(role, text){
+    msgs.textContent += `\n${role.toUpperCase()}: ${text}\n`;
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  f.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const text = t.value.trim();
+    if (!text) return;
+    t.value = '';
+    add('user', text);
+
+    const r = await fetch('/api/t10', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ message: text })
+    });
+
+    const data = await r.json();
+    add('assistant', data.reply || '(no reply)');
+  });
+</script>
+
+
+
+
