@@ -47,7 +47,7 @@ Mainly youths born in the 2010s (≤16 y/o) who constantly does random scrolling
 
 ## Our app feature
 
-Using streaks to fight brainrot.
+Using AI Chat to fight brainrot.
 
 ## What we have identified?
 Digital “brainrot” - endless scrolling, low-quality content, and mental overload — is increasingly affecting attention, motivation, and mental clarity. 
