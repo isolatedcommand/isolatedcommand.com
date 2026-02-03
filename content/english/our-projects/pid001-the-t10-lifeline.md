@@ -17,7 +17,7 @@ information:
   - label : "Team Members"
     info : "Everyone in IC"
   - label : "Devpost"
-    info : "<a href=#>Click Here</a>"
+    info : "<a href=https://devpost.com/software/t10-lifeline>Click Here</a>"
   - label : "GitHub"
     info : "<a href=#>Click Here</a>"
   - label : "Survey Link"
