@@ -21,15 +21,17 @@ social:
 - icon : "fa-brands fa-square-github"
   link : "https://github.com/xrtyu"
 
-quote: "nice"
+quote: "how do i play this game"
 ---
 
 
 ## **About**
 
-Glendon is well‑versed in forensic analysis tools such as Autopsy, and is proficient across both Linux and Windows environments. He is also familiar with network and security tools including Wireshark and Metasploit. With a strong passion for digital forensics, he is eager to deepen his expertise and understand the complexities of the industry.
-
-Beyond his technical interests, Glendon has a genuine appreciation for literature and mathematics, which shape the way he thinks, analyses, and approaches problems. His dedication to learning and consistent performance have earned him several awards recognising his work and commitment.
-
-Outside of his professional pursuits, Glendon has a light‑hearted love for cats.
+Glendon is a curious individual who tries his best at the things that he do. With a strong interest in digital forensics, he is eager to expose himself more in this industry to gain more experience. In his free time, he enjoys participating in CTFs.
+ 
+Aside from digital forensics, Glendon has a small interest in game creation. Currently, he is practicing C# so that he can create a game using the Unity engine.
+ 
+Outside of his technical pursuits, Glendon enjoys bouldering and petting cats.
+ 
+0.0
 
