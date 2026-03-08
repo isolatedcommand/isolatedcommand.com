@@ -1,7 +1,7 @@
 ---
 title: "Isolated Command One Reporting Platform"
 description: "Centralise reporting platform"
-draft: false
+draft: true
 image : "images/our-projects/pid001/banner.png"
 bg_image: "images/our-projects/pid001/banner.png"
 category: []
