@@ -2,8 +2,8 @@
 title: "NATO Code Translator"
 description: "Make you sound smarter cos you are not"
 draft: false
-image : "images/our-projects/pid002/banner.png"
-bg_image: "images/our-projects/pid002/banner.png"
+image : "images/our-projects/pid001/banner.png"
+bg_image: "images/our-projects/pid001/banner.png"
 category: []
 information:
   - label : "Name"

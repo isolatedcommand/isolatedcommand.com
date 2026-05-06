@@ -2,8 +2,8 @@
 
 {{ partial "page-title.html" . }}
 
-<!-- checking blog -->
-{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
+<!-- checking learn -->
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "learn") (eq .Section "learns") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
 
 <div class="page-wrapper">
   <div class="container">
@@ -104,7 +104,7 @@
         {{- end }}
       </div>
       <div class="col-md-4">
-        {{ partial "blog-sidebar.html" . }}
+        {{ partial "learn-sidebar.html" . }}
       </div>
     </div>
   </div>

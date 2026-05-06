@@ -1,6 +1,6 @@
 {
-  "file": "exampleSite/content/english/blog/blog-post-1.md",
-  "name": "blog",
+  "file": "exampleSite/content/english/learn/learn-post-1.md",
+  "name": "learn",
   "fileType": "md",
   "fmType": "yaml",
   "template": [
