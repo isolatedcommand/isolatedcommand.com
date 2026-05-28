@@ -4,7 +4,7 @@ description: "Make you sound smarter cos you are not"
 draft: false
 image : "images/our-projects/pid001/banner.png"
 bg_image: "images/our-projects/pid001/banner.png"
-category: []
+series: []
 information:
   - label : "Name"
     info : "NATO Code Translator"

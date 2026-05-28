@@ -4,7 +4,7 @@ description: "Centralise reporting platform"
 draft: true
 image : "images/our-projects/pid001/banner.png"
 bg_image: "images/our-projects/pid001/banner.png"
-category: []
+series: []
 information:
   - label : "Name"
     info : "T10 Lifeline"

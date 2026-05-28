@@ -6,12 +6,12 @@
   }
 
   .widget-title {
-    margin-top: 0px;
+    margin-top: 2px;
     margin-bottom: 15px;
     font-size: 16px;
-    color: lighten( $black, 20 );
+    color: white;
     font-weight: 500;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid white;
   }
 
   // Latest Posts
@@ -24,14 +24,14 @@
 
       .media-heading {
         a {
-          color: $black;
+          color: white;
           font-size: 16px;
         }
       }
 
       p {
         font-size: 12px;
-        color: darken( $light, 47.45);
+        color: white;
       }
     }
 
@@ -49,7 +49,7 @@
         padding-bottom: 10px;
 
         a {
-          color: lighten( $black, 50.3 );
+          color: white;
           padding: 10px;
           padding-left: 20px;
           padding-right: 20px;
@@ -60,13 +60,13 @@
           }
 
           &:hover {
-            color: $color-primary;
+            color: red;
             padding-left: 25px;
           }
 
           &:active {
             padding-left: 24px;
-            border: 1px solid $color-primary;
+            border: black;
             border-radius: 30px;
             @include transition (padding, 0s);
           }
@@ -74,8 +74,8 @@
 
         a.current {
           color: $white;
-          background: $color-primary;
-          border: 1px solid $color-primary;
+          background: red;
+          border: black;
           border-radius: 30px;
           pointer-events: none;
           cursor: default;
@@ -94,7 +94,7 @@
         margin-right: 5px;
 
         a {
-          color: lighten( $black, 50.3 );
+          color: white;
           display: inline-block;
           padding: 8px 15px;
           border: 1px solid $border-color;
@@ -103,13 +103,13 @@
           @include transition-multi (background-color 0.3s ease, border 0.3s ease, color 0.1s ease);
 
           &:hover {
-            color: $color-primary;
+            color: red;
             background: rgba($color-primary, 0.3);
-            border: 1px solid rgba($color-primary, 0.3);
+            border: black;
           }
 
           &:active {
-            color: $color-primary;
+            color: red;
             border: 1px solid $color-primary;
             background: $white;
             @include transition (background-color, 0.1s, ease);
@@ -118,8 +118,8 @@
 
         a.current {
           color: $white;
-          background: $color-primary;
-          border: 1px solid $color-primary;
+          background: red;
+          border: black;
           pointer-events: none;
           cursor: default;
         }

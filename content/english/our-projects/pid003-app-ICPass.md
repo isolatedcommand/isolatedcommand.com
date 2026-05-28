@@ -4,7 +4,7 @@ description: "Centralised account‑management gateway for Isolated Command Volu
 draft: false
 image : "images/our-projects/pid001/banner.png"
 bg_image: "images/our-projects/pid001/banner.png"
-category: []
+series: []
 information:
   - label : "Name"
     info : "Isolated Command Passport Portal (ICPass)"

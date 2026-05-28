@@ -7,7 +7,7 @@
 }
 
 .post {
-  background: $white;
+  background: black;
   margin-bottom: 55px;
 
   @include tablet {
@@ -34,10 +34,10 @@
     text-transform: uppercase;
 
     a {
-      color: $color-primary;
+      color: white;
 
       &:hover {
-        color: $color-primary;
+        color: red;
       }
     }
   }
@@ -55,10 +55,10 @@
         letter-spacing: .5px;
 
         a {
-          color: lighten( $black, 56.47 );
+          color: red;
 
           &:hover {
-            color: $color-primary;
+            color: red;
           }
         }
       }

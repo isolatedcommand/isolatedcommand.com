@@ -8,48 +8,101 @@
 <section class="page-wrapper">
   <div class="container">
     <div class="row">
+
+      <!-- LEFT SIDEBAR -->
+      <div class="col-md-4 sticky-top">
+
+        {{ with .Params.subtitle }}
+          {{ . | $.Page.RenderString (dict "display" "block") }}
+        {{ end }}
+
+        <p>
+          {{ i18n "last_update" }}:
+          {{ time.Format ":date_full" .Lastmod }}
+        </p>
+
+        <!-- POST META -->
+        <div class="post-meta">
+          <ul class="list-unstyled">
+            <li>
+              <i class="ion-calendar"></i>
+              {{ time.Format ":date_full" .PublishDate }}
+            </li>
+
+            <li>
+              <i class="ion-android-people"></i>
+              {{ i18n "posted_by" }}
+
+              {{ $authors := slice }}
+              {{ if reflect.IsSlice .Params.author }}
+                {{ $authors = .Params.author }}
+              {{ else }}
+                {{ $authors = (slice .Params.author) }}
+              {{ end }}
+
+              {{ range $index, $elements := $authors }}
+                {{ if ne $index 0 }}, {{ end }}
+                <a class="text-primary"
+                  href="{{ `who-we-are/` | relLangURL }}{{ . | urlize }}">
+                  {{ . }}
+                </a>
+              {{ end }}
+            </li>
+
+            <li>
+              <i class="ion-pricetags"></i>
+
+              {{ range $index, $elements:= .Params.tags }}
+                {{ if ne $index 0 }}, {{ end }}
+                <a href="{{ `tags/` | relLangURL }}{{ . | urlize }}">
+                  {{ . }}
+                </a>
+              {{ end }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- TOC -->
+        <h3>{{ i18n "faq_toc_title" }}</h3>
+        {{ .TableOfContents }}
+
+        <!-- OPTIONAL EXTRA SIDEBAR -->
+        {{ partial "learn-sidebar.html" . }}
+
+      </div>
+
+      <!-- MAIN CONTENT -->
       <div class="col-md-8">
         <div class="post post-single">
-          <h2 class="post-title">{{ .Title }}</h2>
-          <div class="post-meta">
-            <ul>
-              <li><i class="ion-calendar"></i> {{ time.Format ":date_long" .PublishDate }}</li>
-              <li><i class="ion-android-people"></i>
-                {{ i18n "posted_by" }}
-                {{ $authors := slice }}{{ if reflect.IsSlice .Params.author }}{{ $authors = .Params.author }}{{ else }}{{ $authors = (slice .Params.author) }}{{ end -}}
-                {{ range $index, $elements := $authors }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
-              </li>
-              <li><i class="ion-pricetags"></i>
-                {{ range $index, $elements:= .Params.tags }}{{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
-              </li>
-            </ul>
-          </div>
+
           <div class="post-thumb">
-            {{ with .Params.image -}}
-            <img class="img-responsive" src="{{ . | relURL }}" alt="{{ $.Title }}">
-            {{- end }}
+            {{ with .Params.image }}
+              <img class="img-responsive"
+                   src="{{ . | relURL }}"
+                   alt="{{ $.Title }}">
+            {{ end }}
           </div>
+
           <div class="post-content post-excerpt">
             {{ .Content }}
           </div>
-          {{ with site.Params.DisqusShortname -}}
+
+          {{ with site.Params.DisqusShortname }}
           <div class="post-comments">
             {{ template "_internal/disqus.html" . }}
           </div>
-          {{- end }}
+          {{ end }}
+
         </div>
       </div>
-      <div class="col-md-4">
-        {{ partial "learn-sidebar.html" . }}
-      </div>
+
     </div>
   </div>
 </section>
 
 <!-- regular page -->
-{{ else -}}
-{{ .Render "default" }}
-{{- end }}
-<!-- /regular page -->
+{{ else }}
+  {{ .Render "default" }}
+{{ end }}
 
 {{ end }}
