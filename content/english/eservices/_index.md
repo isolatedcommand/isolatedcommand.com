@@ -14,9 +14,7 @@ draft: false
 
 ## ICCEN System (Isolated Command Central Enquiries System)
 
-[Access Here](ICCENS)
-
-## ICCE NSystem (Isolated Command Central Enquiries System)
+> [Access Here](iccens)
 
 Built by **conanzhangtech**, The **Isolated Command NATO Translator** is a one-stop service that enables members of the public and partners to connect with the our Volunteers.
 
@@ -33,7 +31,7 @@ You may submit enquiries related to:
 
 ## IC NATO Translator App
 
-[Access Here](ICNATOTranslatorApp)
+> [Access Here](ICNATOTranslatorApp)
 
 Built by **conanzhangtech**, the **Isolated Command NATO Translator App** is a web-based utility that converts text, words, and phrases into the NATO Phonetic Alphabet.
 
