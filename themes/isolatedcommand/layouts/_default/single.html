@@ -2,7 +2,7 @@
 
 {{ partial "page-title.html" . }}
 <!-- checking learn -->
-{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "learn") (eq .Section "learns") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
+{{ if or (eq .Section "learn") (eq .Section "learns") (eq .Section "categories") (eq .Section "tags") (eq .Section "post") }}
 
 <section class="page-wrapper">
   <div class="container">
@@ -16,7 +16,6 @@
         {{ end }}
 
         <p>
-          {{ i18n "last_update" }}:
           {{ time.Format ":date_full" .Lastmod }}
         </p>
 

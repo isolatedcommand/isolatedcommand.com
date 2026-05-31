@@ -8,6 +8,7 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="text-center">
           
+
           <figure>
             {{ if .Params.photo -}}
             <img style="border-radius: 50%;" class="img-fluid" src="{{ .Params.photo }}"><br>
@@ -28,6 +29,8 @@
       <i class="{{ .icon }}" style="color:red; font-size:22px"></i>
     </a>
   </li>
+
+  
   {{ end }}
 </ul>
             {{- end }} 
@@ -37,6 +40,7 @@
               </h5>
             </figcaption>
           </figure>
+           <a href="/eservices/ICCENS" class="btn btn-main">Interested? Request a copy of my resume via ICCENS.</a>
           <hr>
           {{ .Content }}
         </div>

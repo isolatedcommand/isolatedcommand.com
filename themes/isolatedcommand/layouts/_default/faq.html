@@ -7,9 +7,33 @@
     <div class="row">
       <div class="col-md-4 sticky-top">
         <h2>{{ .Title }}</h2>
+
+        
         {{ with .Params.subtitle }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
         
-        <p>{{ i18n "last_update" }}: {{ time.Format ":date_long" .Lastmod }}</p>
+        <p>
+          {{ time.Format ":date_full" .Lastmod }}
+        </p>
+            <li>
+              <i class="ion-android-people"></i>
+              {{ i18n "posted_by" }}
+
+              {{ $authors := slice }}
+              {{ if reflect.IsSlice .Params.author }}
+                {{ $authors = .Params.author }}
+              {{ else }}
+                {{ $authors = (slice .Params.author) }}
+              {{ end }}
+
+              {{ range $index, $elements := $authors }}
+                {{ if ne $index 0 }}, {{ end }}
+                <a class="text-primary"
+                  href="{{ `who-we-are/` | relLangURL }}{{ . | urlize }}">
+                  {{ . }}
+                </a>
+              {{ end }}
+            </li>
+            
         <h3>{{ i18n "faq_toc_title" }}</h3>
         {{ .TableOfContents }}
       </div>
