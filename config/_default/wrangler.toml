@@ -13,3 +13,7 @@ directory = './public'
 # tells the worker that you have a custom 404 page when a requested
 # asset is not found, and should be found in the directory set in the above line.
 not_found_handling = '404'
+
+# Add this section right here:
+[build]
+command = "npm run build"
