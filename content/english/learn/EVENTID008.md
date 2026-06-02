@@ -6,7 +6,7 @@ image : "https://d2kxlefydm4hr1.cloudfront.net/image/businesstimes/17e4923af0913
 bg_image: "https://d2kxlefydm4hr1.cloudfront.net/image/businesstimes/17e4923af0913386a26c76fa39382468e0d5a4dcf02d41d88b9ae54e378d120e?w=960&dpr=1&f=webp"
 description: "SERIES: Happenings"
 categories: ["SERIES: Happenings"]
-tags: ["Conan ZHANG"]
+tags: ["Conan ZHANG", "Keng Swee"]
 #tags: ["Conan ZHANG","Glendon ONG"]
 draft: false
 type: "post"
