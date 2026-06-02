@@ -43,7 +43,7 @@ jobs:
       #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build Hugo Site
         run: |
-          hugo --minify
+          npm run build
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.6.2
         with:
