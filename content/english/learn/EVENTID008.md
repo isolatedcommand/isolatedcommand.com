@@ -12,7 +12,7 @@ draft: false
 type: "post"
 ---
 
-In 2019, Team PepeHands participated in the Frasers Property Inclusive Spaces Hackathon, an innovation challenge designed to inspire participants to reimagine public spaces as more accessible, inclusive, and welcoming environments for all individuals.
+In 2019, Team UniLex participated in the Frasers Property Inclusive Spaces Hackathon, an innovation challenge designed to inspire participants to reimagine public spaces as more accessible, inclusive, and welcoming environments for all individuals.
 
 As students with a strong interest in technology and problem-solving, we viewed this hackathon as an opportunity to address real-world challenges encountered by Persons with Disabilities (PWDs). Instead of concentrating exclusively on technological solutions, we sought to understand the daily experiences of individuals facing accessibility barriers and to develop practical interventions that could enhance their quality of life.
 
