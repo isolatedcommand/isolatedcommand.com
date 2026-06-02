@@ -51,9 +51,7 @@
           <ul class="pagination post-pagination">
             <!-- Previous page. -->
             {{ if $paginator.HasPrev -}}
-            <li>
-              <a href="{{ $paginator.Prev.URL }}" class="page-link">{{ i18n "page_prev" }}</a>
-            </li>
+
             {{- end }}
             <!-- Page numbers. -->
             {{ range $paginator.Pagers -}}
@@ -95,9 +93,7 @@
             {{- end }}
             <!-- Next page. -->
             {{ if $paginator.HasNext -}}
-            <li>
-              <a href="{{ $paginator.Next.URL }}">{{ i18n "page_next" }}</a>
-            </li>
+           
             {{- end }}
           </ul>
         </nav>

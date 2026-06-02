@@ -4,8 +4,8 @@ date: 2026-01-17T00:00:00+08:00
 author: ["conanzhangtech","xrtyu"]
 image : "images/learn/photo3.jpg"
 bg_image: "images/learn/photo3.jpg"
-description: "SERIES: Events"
-categories: ["SERIES: Events"]
+description: "SERIES: Happenings"
+categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG","Glendon ONG"]
 draft: false
 type: "post"

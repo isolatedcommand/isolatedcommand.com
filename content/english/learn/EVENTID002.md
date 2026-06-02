@@ -4,8 +4,8 @@ date: 2022-01-01T00:00:00+08:00
 author: conanzhangtech
 image : "https://media.licdn.com/dms/image/v2/C4D22AQEl9HYbDulxdQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1662043330950?e=1781740800&v=beta&t=TfDkiKhpCN_lXiOCFgBGdWbVwY0PBcGq-TErQv9Xur0"
 bg_image: "https://media.licdn.com/dms/image/v2/C4D22AQEl9HYbDulxdQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1662043330950?e=1781740800&v=beta&t=TfDkiKhpCN_lXiOCFgBGdWbVwY0PBcGq-TErQv9Xur0"
-description: "SERIES: Events"
-categories: ["SERIES: Events"]
+description: "SERIES: Happenings"
+categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]
 draft: false

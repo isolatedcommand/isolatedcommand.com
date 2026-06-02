@@ -4,8 +4,8 @@ date: 2019-11-06T00:00:00+08:00
 author: conanzhangtech
 image : "images/learn/photo1.jpg"
 bg_image: "images/learn/photo1.jpg"
-description: "SERIES: Events"
-categories: ["SERIES: Events"]
+description: "SERIES: Happenings"
+categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]
 draft: false
