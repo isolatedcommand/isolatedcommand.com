@@ -70,8 +70,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3.1.0
         with:
           # Your Cloudflare API Token
-          apiToken: ${{ secrets.cfat_5DgnXkSJx8ePzQSECJKi5wFZyZqUDVoDY7L4rezAb760efff }}
-          # Your Cloudflare Account ID
-          accountId: ${{ secrets.16756315f920cc08d9a0ae90660fed58 }}
           # The version of Wrangler you'd like to use to deploy your Workers project
           wranglerVersion: 4.28.0
