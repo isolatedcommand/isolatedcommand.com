@@ -1,0 +1,77 @@
+# Sample workflow for building and deploying a Hugo site to Cloudflare Workers
+name: Deploy Isolated Command to Cloudflare Workers
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.162.1
+      # NODE_VERSION: 22.15.1
+    steps:
+      - name: Hugo setup
+        # You may pin to the exact commit or the version.
+        # uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f
+        uses: peaceiris/actions-hugo@v3.0.0
+        with:
+          # The Hugo version to download (if necessary) and use. Example: 0.58.2
+          hugo-version: ${{ env.HUGO_VERSION }}
+          # Download (if necessary) and use Hugo extended version. Example: true
+          extended: true
+      # - name: Setup Node.js environment
+      #   uses: actions/setup-node@v3.9.1
+      #   with:
+      #     node-version: ${{ env.NODE_VERSION }}
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      # - name: Install Node.js dependencies
+      #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Build Hugo Site
+        run: |
+          hugo --minify
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          # Artifact name
+          name: artifact # optional, default is artifact
+          # A file, directory or wildcard pattern that describes what to upload
+          path: |
+            public
+            ./wrangler.toml
+
+  # Deployment job
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v5.0.0
+        with:
+          # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
+          name: artifact
+      - name: Deploy to Cloudflare Workers with Wrangler
+        # You may pin to the exact commit or the version.
+        # uses: cloudflare/wrangler-action@c25aadc9657b0cdc4786c04e59a6fe92765a783b
+        uses: cloudflare/wrangler-action@v3.1.0
+        with:
+          # Your Cloudflare API Token
+          apiToken: ${{ secrets.cfat_5DgnXkSJx8ePzQSECJKi5wFZyZqUDVoDY7L4rezAb760efff }}
+          # Your Cloudflare Account ID
+          accountId: ${{ secrets.16756315f920cc08d9a0ae90660fed58 }}
+          # The version of Wrangler you'd like to use to deploy your Workers project
+          wranglerVersion: 4.28.0

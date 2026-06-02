@@ -1,8 +1,15 @@
-name = "isolatedcommand-com"
-compatibility_date = "2025-07-31"
-preview_urls = true
+#project name
+name = 'isolatedcommand-com'
+# ensures that this will be compatible for this specific version of Cloudflare Workers
+compatibility_date = '2025-07-31'
+# disables *.workers.dev URL
+workers_dev = false
+# disables preview URLs
+preview_urls = false
 
 [assets]
-directory = "./public"
-not_found_handling = "404"
-html_handling = "auto-trailing-slash"
+# directory of static files
+directory = './public'
+# tells the worker that you have a custom 404 page when a requested
+# asset is not found, and should be found in the directory set in the above line.
+not_found_handling = '404'
