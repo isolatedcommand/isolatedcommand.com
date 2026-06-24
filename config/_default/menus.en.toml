@@ -58,7 +58,7 @@ url = "connect-now/"
 [[main]]
 weight = 7
 name = "Volunteer Management Portal"
-url = "volunteer.isolatedcommand.com"
+url = "https://volunteer.isolatedcommand.com"
 
 
 [[footer]]
