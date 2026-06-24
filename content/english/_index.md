@@ -39,7 +39,7 @@ about:
 ############################# Service ############################
 announcement:
   enable: true
-  title: "About Team Isolated Command"
+  title: "About Team Isolated Comman"
   anntitle1: "Why we love what we do"
   anndesc1: "We are a small team of curious, motivated youths who transform random ideas into impactful projects. Each of us has our unique technical skills, creative mindset, problem‑solving skills and simply the willingness to explore new possibilities. Through every challenge we take on, be it hackathons and competitions that stretch our limits, or CTFs that keep us on our toes, the aim is to create an environment where learning and innovating feels natural, risks feel worth taking, and ideas feel meaningful. Read More At 'WHO WE ARE'"
 
