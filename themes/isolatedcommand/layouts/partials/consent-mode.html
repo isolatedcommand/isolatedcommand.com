@@ -1,5 +1,7 @@
-<!-- Google Consent Mode v2 — defaults to denied until the visitor accepts.
-     Must load before Google Analytics / Google Ads / GTM. -->
+{{- $ga := site.Config.Services.GoogleAnalytics.ID -}}
+{{- if $ga -}}
+<!-- Google tag (gtag.js) with Consent Mode v2 — default denied until the visitor accepts -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -7,6 +9,7 @@
   // Honour a previously stored choice so the banner doesn't reset consent.
   var icConsentGranted = document.cookie.indexOf('ic-consent=granted') !== -1;
 
+  // Default consent state — set BEFORE config, includes the v2 Ads signals.
   gtag('consent', 'default', {
     'ad_storage':            icConsentGranted ? 'granted' : 'denied',
     'ad_user_data':          icConsentGranted ? 'granted' : 'denied',
@@ -20,4 +23,8 @@
   // Redact ad identifiers and pass click info via URL while consent is denied.
   gtag('set', 'ads_data_redaction', true);
   gtag('set', 'url_passthrough', true);
+
+  gtag('js', new Date());
+  gtag('config', '{{ $ga }}');
 </script>
+{{- end -}}

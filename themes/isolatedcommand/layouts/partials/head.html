@@ -138,8 +138,7 @@
 
 {{ template "_internal/opengraph.html" . }}
 
-<!-- google analytics -->
-{{ template "_internal/google_analytics.html" . }}
+<!-- google analytics is loaded with Consent Mode v2 in consent-mode.html (in <head>) -->
 
 <!-- google tag manager -->
 {{ with site.Params.google_tag_manager }}
