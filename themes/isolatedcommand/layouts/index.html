@@ -10,9 +10,9 @@
         <div class="block">
 
 
-          {{ with .isolated }}<h1 style="color:red;">&lt;{{ . | markdownify }}/&gt;</h1>{{ end }}
-          {{ with .command }}<h1 style="color:#3272c8;">{{ . | markdownify }}</h1>{{ end }}
-          {{ with .slogan }}<h4>{{ . | markdownify }}</h4>{{ end }}
+          {{ with .isolated }}<h1 style="color:#e80f12;" data-typing>&lt;{{ . | markdownify }}/&gt;</h1>{{ end }}
+          {{ with .command }}<h1 style="color:#3071c4;" data-typing>{{ . | markdownify }}</h1>{{ end }}
+          {{ with .slogan }}<h4 style="color:var(--color-text-light);">{{ . | markdownify }}</h4>{{ end }}
           {{ with .button1 }}
           {{ if .enable }}
           <br><a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label }}</a><br>

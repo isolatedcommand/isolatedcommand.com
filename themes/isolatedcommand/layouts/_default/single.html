@@ -73,6 +73,13 @@
       <div class="col-md-8">
         <div class="post post-single">
 
+          <!-- ARTICLE TOOLBAR -->
+          <div class="article-toolbar no-print">
+            <button class="btn article-action" type="button" onclick="window.print()">Print as PDF</button>
+            <button class="btn article-action" type="button" data-copy-md>Copy Markdown</button>
+            <textarea class="article-raw-md" hidden aria-hidden="true">{{ .RawContent }}</textarea>
+          </div>
+
           <div class="post-thumb">
             {{ with .Params.image }}
               <img class="img-responsive"

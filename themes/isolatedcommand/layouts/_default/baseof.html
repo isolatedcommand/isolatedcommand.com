@@ -1,9 +1,9 @@
-<!-- 
+<!--
 
-PROJECT: Startup Hugo
+PROJECT: IsolatedCommand
 VERSION: 1.0.0
-AUTHOR: Gethugothemes
-AUTHOR WEBSITE: https://gethugothemes.com
+AUTHOR: IsolatedCommand
+AUTHOR WEBSITE: https://isolatedcommand.com
 
 -->
 
@@ -22,6 +22,21 @@ AUTHOR WEBSITE: https://gethugothemes.com
 </head>
 
 <body>
+	<!-- Animated starfield background -->
+	<div class="starfield" aria-hidden="true">
+		<div id="stars"></div>
+		<div id="stars2"></div>
+		<div id="stars3"></div>
+	</div>
+
+	<!-- Print/PDF header: logo + source URL (only visible when printing) -->
+	{{ $print_url := .Permalink }}
+	{{ with site.Params.canonical_base }}{{ $print_url = printf "%s%s" (strings.TrimSuffix "/" .) $.RelPermalink }}{{ end }}
+	<div class="print-header" aria-hidden="true">
+		<img class="print-logo" src="{{ site.Params.logo | absURL }}" alt="Isolated Command">
+		<span class="print-url">Source: {{ $print_url }}</span>
+	</div>
+
 	<!-- cache partial only in production -->
 	{{ partial "header.html" . }}
 	{{ if hugo.IsProduction }}

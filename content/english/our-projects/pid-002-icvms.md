@@ -2,8 +2,8 @@
 title: "Isolated Command Volunteer Management System"
 description: "Volunteer operations, reimagined on the edge."
 draft: false
-image: "images/our-projects/pid002/banner.png"
-bg_image: "images/our-projects/pid002/banner.png"
+image: "images/logo.png"
+bg_image: "images/logo.png"
 series: []
 information:
   - label: "Name"

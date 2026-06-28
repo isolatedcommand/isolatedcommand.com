@@ -1,17 +1,12 @@
 {
-  "name": "airspace-hugo",
+  "name": "isolatedcommand-com",
   "version": "1.2.4",
   "license": "MIT",
-  "author": "gethugothemes",
+  "author": "IsolatedCommand",
   "scripts": {
-    "dev": "hugo server",
-    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
-    "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
-    "dev:example": "cd exampleSite; hugo server --themesDir ../..",
-    "build:example": "cd exampleSite; hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
-    "preview:example": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
-    "project-setup": "node ./scripts/projectSetup.js",
-    "theme-setup": "node ./scripts/themeSetup.js"
+    "dev": "hugo-extended server",
+    "build": "hugo-extended --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview": "hugo-extended server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify"
   },
   "dependencies": {
     "tinacms": "^3.2.0"
@@ -19,7 +14,6 @@
   "devDependencies": {
     "@tinacms/cli": "^2.0.7",
     "@types/node": "^25.0.3",
-    "hugo-bin": "^0.149.2",
     "hugo-extended": "^0.162.1",
     "sass": "^1.100.0",
     "sass-embedded": "^1.100.0"
