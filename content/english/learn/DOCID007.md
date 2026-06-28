@@ -4,7 +4,7 @@ date: 2021-01-01T00:00:00+08:00
 author: conanzhangtech
 image : "https://tse4.mm.bing.net/th/id/OIP.7Btr_VcJtmu2w7lH-Y9NdQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 bg_image: "https://tse4.mm.bing.net/th/id/OIP.7Btr_VcJtmu2w7lH-Y9NdQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
-description: "SERIES: What Have I Learnt"
+description: "Lessons from the Singapore Personal Data Protection Act 2012 (PDPA), explained section by section."
 categories: ["SERIES: What Have I Learnt"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

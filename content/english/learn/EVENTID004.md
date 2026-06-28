@@ -4,7 +4,7 @@ date: 2019-11-06T00:00:00+08:00
 author: conanzhangtech
 image : "images/learn/photo1.jpg"
 bg_image: "images/learn/photo1.jpg"
-description: "SERIES: Happenings"
+description: "Receiving the Student Volunteer Recognition Programme (SVRP) 2019 Silver Award from AiSP, supported by CSA."
 categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]
@@ -24,7 +24,7 @@ This recognition was shared with fellow recipients **Keng Swee** and my younger 
 
 This award signifies the importance of safeguarding Singapore’s IT ecosystem and highlights the role of youths in contributing to national cybersecurity resilience through collective effort and commitment.
 
-![photo](images/learn/photo2.jpg)
+![SVRP 2019 Silver Award ceremony](images/learn/photo2.jpg)
 
 > [Instagram Post](https://www.instagram.com/conanzhangtech/p/B4h_P4Tnj6g/)
 

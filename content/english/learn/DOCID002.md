@@ -4,7 +4,7 @@ date: 2026-03-20T00:00:00+08:00
 author: conanzhangtech
 image : "https://media.txone.com/prod/uploads/2025/07/Blog-Unmasking-UNC3886-A-Sophisticated-Cyber-Espionage-Group-Targeting-Critical-Infrastructure.jpg"
 bg_image: "https://media.txone.com/prod/uploads/2025/07/Blog-Unmasking-UNC3886-A-Sophisticated-Cyber-Espionage-Group-Targeting-Critical-Infrastructure.jpg"
-description: "SERIES: What Have I Learnt"
+description: "Lessons from the UNC3886 cyberattack on Singapore Critical Information Infrastructure: tactics, impact and defensive takeaways."
 categories: ["SERIES: What Have I Learnt"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

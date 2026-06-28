@@ -4,7 +4,7 @@ date: 2022-01-01T00:00:00+08:00
 author: conanzhangtech
 image : "https://media.licdn.com/dms/image/v2/C4D22AQEl9HYbDulxdQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1662043330950?e=1781740800&v=beta&t=TfDkiKhpCN_lXiOCFgBGdWbVwY0PBcGq-TErQv9Xur0"
 bg_image: "https://media.licdn.com/dms/image/v2/C4D22AQEl9HYbDulxdQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1662043330950?e=1781740800&v=beta&t=TfDkiKhpCN_lXiOCFgBGdWbVwY0PBcGq-TErQv9Xur0"
-description: "SERIES: Happenings"
+description: "Reflections from HonourSG x The Birthday Collective Unconference 2022 on exploring passion through active citizenry."
 categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]
@@ -24,11 +24,11 @@ In Singapore, students have greatly benefited from the education system, which p
 
 I also had the opportunity to network with **Ms Shiao-yin Kuik**, Executive Director and Cultural Change Strategist at Common Ground Civic Centre & Consultancy. Through our conversation, I gained valuable insights into how organisations and youth can be empowered to create meaningful social impact for themselves and for Singapore.
 
-![photo](https://media.licdn.com/dms/image/v2/C4D22AQFQKt4LKMZBcg/feedshare-shrink_800/feedshare-shrink_800/0/1662043330931?e=1781740800&v=beta&t=r-Ja8Al_15YO8--i3SieLSN5XQFKIt_GW5G8oaKj3lc)
+![HonourSG Unconference 2022](https://media.licdn.com/dms/image/v2/C4D22AQFQKt4LKMZBcg/feedshare-shrink_800/feedshare-shrink_800/0/1662043330931?e=1781740800&v=beta&t=r-Ja8Al_15YO8--i3SieLSN5XQFKIt_GW5G8oaKj3lc)
 
 In addition, **Professor Lim Siong Guan** shared his perspectives on social issues in Singapore and highlighted how young people can contribute meaningfully to addressing these challenges.
 
-![photo](https://media.licdn.com/dms/image/v2/C4D22AQF4tpLglFInHg/feedshare-shrink_800/feedshare-shrink_800/0/1662043330996?e=1781740800&v=beta&t=zQyi-swKAuC33QarYrmlVcsxphEG8ZukUGC1QdYS7yI)
+![HonourSG Unconference 2022](https://media.licdn.com/dms/image/v2/C4D22AQF4tpLglFInHg/feedshare-shrink_800/feedshare-shrink_800/0/1662043330996?e=1781740800&v=beta&t=zQyi-swKAuC33QarYrmlVcsxphEG8ZukUGC1QdYS7yI)
 
 It was also a pleasure meeting **Benedict Loo**, thank you for the invitation and the engaging discussion.
 
@@ -38,7 +38,7 @@ This experience broadened my understanding of volunteerism, social development, 
 
 As someone who is passionate about volunteerism and community engagement, I strongly believe that giving back to society is an important responsibility. I hope more youths in Singapore will be inspired to take part in initiatives that create positive change within their communities.
 
-![photo](https://media.licdn.com/dms/image/v2/C4D22AQG4pAxrxt2-6w/feedshare-shrink_800/feedshare-shrink_800/0/1662043331352?e=1781740800&v=beta&t=ofF4TANpEjIFROiNvG0E1e3YTHNSbiIdrc3-pVUaW10)
+![HonourSG Unconference 2022](https://media.licdn.com/dms/image/v2/C4D22AQG4pAxrxt2-6w/feedshare-shrink_800/feedshare-shrink_800/0/1662043331352?e=1781740800&v=beta&t=ofF4TANpEjIFROiNvG0E1e3YTHNSbiIdrc3-pVUaW10)
 
 I am grateful to have been part of this meaningful experience.
 

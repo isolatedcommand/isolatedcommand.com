@@ -4,7 +4,7 @@ date: 2025-02-01T00:00:00+08:00
 author: conanzhangtech
 image : "https://media.licdn.com/dms/image/v2/D560BAQE1brqQnxYscA/company-logo_200_200/company-logo_200_200/0/1680747615720/mas_logo?e=2147483647&v=beta&t=yh4U9gGdnLcZGsnkdGwyaEs6gn_RjzAe1XSiB7_8Puk"
 bg_image: "https://media.licdn.com/dms/image/v2/D560BAQE1brqQnxYscA/company-logo_200_200/company-logo_200_200/0/1680747615720/mas_logo?e=2147483647&v=beta&t=yh4U9gGdnLcZGsnkdGwyaEs6gn_RjzAe1XSiB7_8Puk"
-description: "SERIES: What Have I Learnt"
+description: "Notes and lessons from the ABS Guidelines on Outsourcing for financial institutions other than banks in Singapore."
 categories: ["SERIES: What Have I Learnt"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

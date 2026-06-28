@@ -4,7 +4,7 @@ date: 2025-01-01T00:00:00+08:00
 author: conanzhangtech
 image : "https://vitable.com.au/cdn/shop/files/hp_compare_table_25_2048x.png?v=1306390172642454555"
 bg_image: "https://vitable.com.au/cdn/shop/files/hp_compare_table_25_2048x.png?v=1306390172642454555"
-description: "SERIES: Product Referral"
+description: "An overview of Vitable personalised vitamin packs, including a referral link for 25 percent off your first order."
 categories: ["SERIES: Rewards"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

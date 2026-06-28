@@ -4,7 +4,7 @@ date: 2025-01-03T00:00:00+08:00
 author: conanzhangtech
 image : "images/learn/projectCodenameFortress.png"
 bg_image: "images/learn/projectCodenameFortress.png"
-description: "SERIES: Happenings"
+description: "Inside projectCodenameFortress, a home lab built to learn and experiment with IT and cybersecurity."
 categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

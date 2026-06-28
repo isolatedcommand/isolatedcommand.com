@@ -4,7 +4,7 @@ date: 2026-03-02T00:00:00+08:00
 author: conanzhangtech
 image : "https://media.licdn.com/dms/image/v2/C5112AQH1gxpIZhWTYw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1532406577946?e=2147483647&v=beta&t=tFcHkFjvn3vZyeo2vEmotIiXTOJAhNciAE2zijnJ1tk"
 bg_image: "https://media.licdn.com/dms/image/v2/C5112AQH1gxpIZhWTYw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1532406577946?e=2147483647&v=beta&t=tFcHkFjvn3vZyeo2vEmotIiXTOJAhNciAE2zijnJ1tk"
-description: "SERIES: What Have I Learnt"
+description: "Key lessons from the 2018 SingHealth data breach in Singapore and the cybersecurity takeaways."
 categories: ["SERIES: What Have I Learnt"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

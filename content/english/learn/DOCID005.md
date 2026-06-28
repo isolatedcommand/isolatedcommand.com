@@ -4,7 +4,7 @@ date: 2025-04-01T00:00:00+08:00
 author: conanzhangtech
 image : "https://abs.org.sg/images/default-album/abs-logo-text.png"
 bg_image: "https://abs.org.sg/images/default-album/abs-logo-text.png"
-description: "SERIES: What Have I Learnt"
+description: "Lessons from the ABS Cloud Computing Implementation Guide 3.0 for the Singapore financial industry."
 categories: ["SERIES: What Have I Learnt"]
 tags: ["Conan ZHANG"]
 #tags: ["Conan ZHANG","Glendon ONG"]

@@ -4,7 +4,7 @@ date: 2019-04-21T00:00:00+08:00
 author: conanzhangtech
 image : "https://d2kxlefydm4hr1.cloudfront.net/image/businesstimes/17e4923af0913386a26c76fa39382468e0d5a4dcf02d41d88b9ae54e378d120e?w=960&dpr=1&f=webp"
 bg_image: "https://d2kxlefydm4hr1.cloudfront.net/image/businesstimes/17e4923af0913386a26c76fa39382468e0d5a4dcf02d41d88b9ae54e378d120e?w=960&dpr=1&f=webp"
-description: "SERIES: Happenings"
+description: "Team UniLex at the Frasers Property Inclusive Spaces Hackathon 2019, reimagining public spaces to be more accessible and inclusive."
 categories: ["SERIES: Happenings"]
 tags: ["Conan ZHANG", "Keng Swee"]
 #tags: ["Conan ZHANG","Glendon ONG"]
@@ -30,7 +30,7 @@ Team UniLex comprised a small, highly motivated group of students who shared a c
 >
 > Lex GOH
 
-![photo](/images/learn/photo13.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo13.jpg)
 
 Throughout the hackathon, we collaborated closely to investigate accessibility challenges, generate ideas, design prototypes, and prepare our final presentation for the judging panel.
 
@@ -43,12 +43,12 @@ Before developing solutions, we dedicated time to researching and discussing the
 ### **Problem Statement 1: Long waiting time for PWDs to use Lifts**
 A prominent issue identified was the difficulty many PWDs experience when using lifts during peak periods. Shopping malls often become crowded, leading to extended waiting times and situations in which individuals with mobility impairments struggle to access lifts efficiently.
 
-![photo](/images/learn/photo14.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo14.jpg)
 
 ### **Problem Statement 2: Takes up crucial time to contact or give Feedback to the Management, Customer Service**
 We also identified another challenge: the process of reporting accessibility issues to mall management. Reporting a broken escalator, inaccessible pathway, or maintenance issue often requires locating contact information, composing emails, attaching photographs, and navigating multiple communication channels.
 
-![photo](/images/learn/photo15.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo15.jpg)
 
 These seemingly minor inconveniences can become significant barriers, particularly for individuals who already experience mobility challenges.
 
@@ -60,15 +60,15 @@ Our initial proposed solution focused on enhancing lift accessibility within sho
 
 The concept involved a priority lift-access system integrated with the existing EZ-Link infrastructure. Registered PWD users could tap their card at designated lift access points, allowing the lift system to prioritise their request and reduce waiting times.
 
-![photo](/images/learn/photo16.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo16.jpg)
 
 The system would provide notifications both inside and outside the lift, informing passengers when a priority request was activated. Although this approach would not eliminate waiting times entirely, it could substantially improve accessibility and reduce frustration for users who rely on lift access.
 
-![photo](/images/learn/photo17.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo17.jpg)
 
 An important lesson we learned during this discussion was that we can’t satisfy everyone, but do not let the solution adapt to us, we adapt to the solution. General public acceptance plays a major role in the success of accessibility initiatives. We carefully considered how the system could balance accessibility needs with public expectations, ensuring that the solution remained practical and socially acceptable.
 
-![photo](/images/learn/photo18.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo18.jpg)
 
 ## Proposed Solution to PS2: Creating a Mobile App
 
@@ -92,14 +92,14 @@ The proposed application included:
 
 A major consideration during development was ensuring that the application itself remained accessible. We carefully considered button placement, navigation flow, and usability for individuals with diverse accessibility needs.
 
-![photo](/images/learn/photo19.jpg)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/photo19.jpg)
 
 The outcome was a low-fidelity prototype that demonstrated how technology could simplify communication and reduce the effort required for users to report issues or seek assistance.
 
-![photo](/images/learn/image20.png)
-![photo](/images/learn/image21.png)
-![photo](/images/learn/image22.png)
-![photo](/images/learn/image23.png)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/image20.png)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/image21.png)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/image22.png)
+![Frasers Property Inclusive Spaces Hackathon 2019](/images/learn/image23.png)
 
 ---
 
