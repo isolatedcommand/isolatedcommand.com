@@ -39,6 +39,21 @@
       </div>
       <div class="col-md-8">
         {{ .Content }}
+
+        {{ $members := where .Pages "Params.photo" "!=" nil }}
+        {{ with $members }}
+        <div class="team-grid">
+          {{ range . }}
+          <a class="team-card" href="{{ .RelPermalink }}">
+            <div class="team-photo">
+              <img src="{{ .Params.photo }}" alt="{{ .Params.name | default .Title }}" loading="lazy">
+            </div>
+            <h4 class="team-name">{{ .Params.name | default .Title }}</h4>
+            {{ with .Params.description }}<p class="team-role">{{ . }}</p>{{ end }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>

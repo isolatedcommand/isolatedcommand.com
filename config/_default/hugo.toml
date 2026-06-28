@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://isolatedcommand.com/"
+enableRobotsTXT = true
 title = "Isolated Command | Curiousity Starts Here"
 theme = "isolatedcommand"
 timeZone = "Asia/Singapore"

@@ -2,6 +2,19 @@
 
 {{ partial "page-title.html" . }}
 
+<!-- Page Content -->
+<section class="contact-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="contact-form">
   <div class="container">
     {{ with site.Params.contact.form }}{{ if .enable -}}
@@ -46,16 +59,15 @@
     </div>
     {{- end }}{{ end }}
     <div class="contact-box row">
-      {{ with site.Params.contact -}}
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <h2>{{ i18n "address_title" }}</h2>
-          <ul class="address-block">
-            {{ $add_address_descriptors := .address_descriptors }}
-            {{ with site.Params.location }}<li><i class="fas fa-map-marker-alt"></i>{{ if $add_address_descriptors }}{{ i18n "location" | printf "%s: " }}{{ end }}<div>{{ . | markdownify }}</div></li>{{ end }}
-            {{ with site.Params.email }}<li><i class="fas fa-envelope"></i>{{ if $add_address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" . }}</li>{{ end }}
-            {{ with site.Params.phone }}<li><i class="fas fa-tty"></i>{{ if $add_address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}{{ . }}</li>{{ end }}
-          </ul>
+      <div class="col-md-12">
+        <div class="block contact-info">
+          <h2>Get in Touch</h2>
+          <p>We'd love to hear from you. Reach out to us with any questions, collaborations, or just to say hello.</p>
+
+          <h3>Email</h3>
+          <p><strong>{{ site.Params.email }}</strong></p>
+          <p>Feel free to send us an email anytime. We'll get back to you as soon as possible.</p>
+
           <ul class="social-icons">
             {{ range .Site.Params.social }}
             <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
@@ -63,7 +75,6 @@
           </ul>
         </div>
       </div>
-      {{- end }}
       {{ if site.Params.gmap.enable -}}
       <div class="col-md-6 col-sm-12">
         <div class="block">

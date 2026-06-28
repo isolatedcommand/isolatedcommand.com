@@ -1,6 +1,9 @@
 <meta charset="utf-8">
 <title>{{.Title | default site.Title}}</title>
 
+<!-- Consent Mode must run before any Google tag -->
+{{ partial "consent-mode.html" . }}
+
 <!-- base url -->
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
 <base href="{{ .Permalink }}">
@@ -19,6 +22,44 @@
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 {{ with site.Params.author }}
 <meta name="author" content="{{ . }}">{{ end }}
+
+<!-- canonical URL (points at the production domain) -->
+{{ $canonical := .Permalink }}
+{{ with site.Params.canonical_base }}{{ $canonical = printf "%s%s" (strings.TrimSuffix "/" .) $.RelPermalink }}{{ end }}
+<link rel="canonical" href="{{ $canonical }}">
+
+<!-- robots: staging is kept out of the index -->
+{{ if site.Params.seo_noindex }}
+<meta name="robots" content="noindex, nofollow">
+{{ else }}
+<meta name="robots" content="index, follow, max-image-preview:large">
+{{ end }}
+
+<!-- structured data: Organization + WebSite -->
+{{ $site_base := or site.Params.canonical_base (strings.TrimSuffix "/" site.BaseURL) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Isolated Command",
+      "url": "{{ $site_base }}",
+      "logo": "{{ $site_base }}/images/logo.png",
+      "description": "{{ site.Params.description }}",
+      "email": "{{ site.Params.email }}",
+      "sameAs": [
+        {{ range $i, $s := site.Params.social }}{{ if $i }},{{ end }}"{{ $s.link }}"{{ end }}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": "{{ site.Title }}",
+      "url": "{{ $site_base }}"
+    }
+  ]
+}
+</script>
 
 <!-- google site verification -->
 {{ with site.Params.site_verification.google }}

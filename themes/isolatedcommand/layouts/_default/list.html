@@ -11,7 +11,7 @@
       <div class="col-md-8">
         {{ $paginator := .Paginate .Data.Pages -}}
         {{ range $paginator.Pages -}}
-        <div class="post">
+        <div class="post post-card">
           <div class="post-media post-thumb">
             {{ if isset .Params "image" -}}
             <a href="{{ .RelPermalink }}">

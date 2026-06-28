@@ -24,10 +24,10 @@ trap cleanup EXIT SIGINT SIGTERM
 
 main() {
   # Define tool versions
-  DART_SASS_VERSION=1.99.0
-  GO_VERSION=1.26.3
-  HUGO_VERSION=0.162.1
-  NODE_VERSION=25.2.1
+  DART_SASS_VERSION=1.101.0
+  GO_VERSION=1.26.4
+  HUGO_VERSION=0.163.3
+  NODE_VERSION=26.4.0
 
   # Set the build timezone
   export TZ=Asia/Singapore
@@ -55,7 +55,7 @@ main() {
   echo "Installing Hugo ${HUGO_VERSION}..."
   curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
   mkdir -p "${HOME}/.local/hugo"
-  tar -C "${HOME}/.local/hugo" -xf "hugo_extended${HUGO_VERSION}_linux-amd64.tar.gz"
+  tar -C "${HOME}/.local/hugo" -xf "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
   export PATH="${HOME}/.local/hugo:${PATH}"
 
   # Install Node.js

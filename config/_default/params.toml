@@ -1,5 +1,10 @@
 #################### default parameters ################################
 
+# SEO: staging is kept out of the index; canonical points to production.
+# When promoting to the production repo, set seo_noindex = false.
+seo_noindex = false
+canonical_base = "https://isolatedcommand.com"
+
 favicon = "images/favicon.png"
 logo = "images/logo.png"
 logo_width = "300px"
@@ -13,6 +18,24 @@ email = "hello@isolatedcommand.com"
 copyright = "Website developed and writtened by [@conanzhangtech](/who-we-are/conanzhangtech/) - Isolated Command 2026"
 custom_script= ""
 google_tag_manager = ""
+
+######################## Color Variables (IsolatedCommand Brand) ########################
+[variables]
+color_primary = "#e80f12"        # Red (Isolated tag)
+color_secondary = "#3071c4"      # Blue (Command text)
+text_color = "#E8E4E0"           # Light warm text
+text_dark = "#1a1410"            # Warm dark background
+text_light = "#A8A49C"           # Warm muted gray
+body_color = "#1a1410"           # Warm dark background
+border_color = "#3071c4"         # Blue accent borders
+black = "#000000"
+white = "#FFFFFF"
+light = "#2a2218"                # Warm light variant
+font_primary = "Poppins"
+font_primary_type = "sans-serif"
+font_secondary = "Poppins"
+font_secondary_type = "sans-serif"
+font_icon = "Font Awesome 6 Free"
 recaptcha_site_key = ""
 
 [contact.form]
