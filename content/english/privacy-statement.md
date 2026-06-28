@@ -29,6 +29,14 @@ We are committed to respecting your privacy and protecting any personal informat
 
 **2.3.** You may disable cookies in your browser settings. Doing so may affect certain features or functions of the website.
 
+**2.4.** **Third-party advertising (Google AdSense).** This website uses Google AdSense, an advertising service provided by Google.
+
+   **(a)** Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website and other websites on the Internet.  
+   **(b)** Google's use of advertising cookies — including the DoubleClick DART cookie — enables Google and its partners to serve ads to you based on your visit to this and/or other sites.  
+   **(c)** Advertising and analytics cookies are set only after you provide consent through our cookie banner. Until you consent, no personalised-advertising cookies are stored.  
+   **(d)** You may opt out of personalised advertising in [Google Ads Settings](https://www.google.com/settings/ads), and out of third-party vendors' advertising cookies at [aboutads.info/choices](https://www.aboutads.info/choices/) or [youronlinechoices.eu](https://www.youronlinechoices.eu/).  
+   **(e)** For more information on how Google uses data, see [Google's Privacy &amp; Terms](https://policies.google.com/technologies/partner-sites).
+
 ---
 
 ## 3. Use of Data
