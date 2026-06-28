@@ -22,64 +22,7 @@
 <!-- cookie -->
 {{ with site.Params.cookies }}
 {{ if .enable }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	{{.content | markdownify}}
-	<span id="js-cookie-button" class="btn btn-sm btn-outline-primary ms-2">{{.button}}</span>
-	<span id="js-cookie-decline" class="btn btn-sm btn-outline-secondary ms-2">Decline</span>
-</div>
-<script type="application/javascript">
-	(function () {
-		var cookieBox = document.getElementById('js-cookie-box');
-		var acceptBtn = document.getElementById('js-cookie-button');
-		var declineBtn = document.getElementById('js-cookie-decline');
-
-		function updateConsent(state) {
-			if (typeof gtag === 'function') {
-				gtag('consent', 'update', {
-					'ad_storage': state,
-					'ad_user_data': state,
-					'ad_personalization': state,
-					'analytics_storage': state
-				});
-			}
-		}
-
-		function dismiss(choice) {
-			Cookies.set('ic-consent', choice, { expires: 180 });
-			Cookies.set('cookie-box', true, { expires: {{ .expire_days }} });
-			cookieBox.classList.add('cookie-box-hide');
-		}
-
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			acceptBtn.onclick = function () { updateConsent('granted'); dismiss('granted'); };
-			declineBtn.onclick = function () { updateConsent('denied'); dismiss('denied'); };
-		}
-	})();
-</script>
-
-<!-- cookie style -->
-<style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
-
-.cookie-box-hide {
-  display: none;
-}
-</style>
-{{ end }}
-{{ end }}
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5980e7e4-3ae8-4e51-85ab-b04e256656ee" data-blockingmode="auto" type="text/javascript"></script>
 
 <!-- font family -->
 {{$pf:= site.Params.variables.font_primary}}

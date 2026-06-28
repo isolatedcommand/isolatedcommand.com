@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <title>{{.Title | default site.Title}}</title>
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5980e7e4-3ae8-4e51-85ab-b04e256656ee" data-blockingmode="auto" type="text/javascript"></script>
+
 
 <!-- Consent Mode must run before any Google tag -->
 {{ partial "consent-mode.html" . }}
@@ -17,11 +17,10 @@
 {{ end }}
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 <meta name="google-adsense-account" content="ca-pub-9963131532470366">
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5980e7e4-3ae8-4e51-85ab-b04e256656ee" data-blockingmode="auto" type="text/javascript"></script>
 {{ end }}
 
 <!-- mobile responsive meta -->
- <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5980e7e4-3ae8-4e51-85ab-b04e256656ee" data-blockingmode="auto" type="text/javascript"></script>
+ 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 <meta name="google-adsense-account" content="ca-pub-9963131532470366">
@@ -70,7 +69,7 @@
 {{ with site.Params.site_verification.google }}
 <meta name="google-site-verification" content="{{ . }}" />
 <meta name="google-adsense-account" content="ca-pub-9963131532470366">
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5980e7e4-3ae8-4e51-85ab-b04e256656ee" data-blockingmode="auto" type="text/javascript"></script>
+
 {{ end }}
 
 <!-- bing site verification -->
