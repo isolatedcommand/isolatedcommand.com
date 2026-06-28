@@ -22,7 +22,7 @@ draft: false
 >
 >> Implementing and managing endpoints at scale by using Microsoft Intune, Microsoft Intune Suite, Windows Autopilot, Microsoft Security Copilot, Microsoft Defender for Endpoint, Microsoft Entra ID, Azure Virtual Desktop, and Windows 365. Implementing identity, security, access, policies, updates, and apps for endpoints.
 >
-> As an endpoint administrator, you collaborate with architects, Microsoft 365 administrators, security administrators, and other workload administrators to plan and implement a modern workplace strategy that meets the business needs of an organization.
+> As an endpoint administrator, you collaborate with architects, Microsoft 365 administrators, security administrators, and other workload administrators to plan and implement a modern workplace strategy that meets the business needs of an organisation.
 >
 >You must have experience with Microsoft Entra ID and Microsoft 365 technologies, including Intune, as well as strong skills and experience in deploying, configuring, and maintaining Windows client and non-Windows devices.
 > 
@@ -33,7 +33,7 @@ draft: false
 >
 > MD-102 Explore endpoint management
 >
-> MD-102 Execute device enrollment
+> MD-102 Execute device enrolment
 >
 > MD-102 Configure profiles for user and devices
 >

@@ -42,7 +42,7 @@ In Part 1, Section 4,
 
 ---
 
-#### What specific baseline parameters constitute complete compliance management for an organization?
+#### What specific baseline parameters constitute complete compliance management for an organisation?
 
 In Part 3, Section 11,
 > (2) An organisation is responsible for personal data in its possession or under its control.
@@ -53,7 +53,7 @@ In Part 3, Section 11,
 
 ---
 
-#### Under what operational standard must an organization establish complaint management processes?
+#### Under what operational standard must an organisation establish complaint management processes?
 
 In Part 3, Section 12,
 > An organisation must —
@@ -117,7 +117,7 @@ In Part 4, Division 2, Section 20,
 
 ---
 
-#### What explicit statutory limitations bar an organization from fulfilling a subject access request?
+#### What explicit statutory limitations bar an organisation from fulfilling a subject access request?
 
 In Part 5, Section 21(3),
 > an organisation must not provide an individual with the individual’s personal data or other information under subsection (1) if the provision of that personal data or other information (as the case may be) could reasonably be expected to —
@@ -158,7 +158,7 @@ In Part 5, Section 22A(1),
 
 ---
 
-#### What structural operational requirements fulfill the Protection and Retention standards?
+#### What structural operational requirements fulfil the Protection and Retention standards?
 
 In Part 6, Sections 24 and 25,
 > 24. An organisation must protect personal data in its possession or under its control by making reasonable security arrangements to prevent —

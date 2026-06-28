@@ -106,7 +106,7 @@ In Section 3: B) Design and Secure the Cloud (9. Privileged User Access Manageme
 #### What structural requirement is expected when a fully managed SaaS incident must be reported under MAS Notice?
 
 In Section 3: C) Run the Cloud (4. Incident and Problem Management),
-> 11. While it is recognized that it is usually the FI's responsibility to identify a relevant incident under relevant MAS Notices related to Technology Risk Management, there are situations where systems or applications designated MAS Critical may be fully managed by the CSP, particularly SaaS or white-labelling.
+> 11. While it is recognised that it is usually the FI's responsibility to identify a relevant incident under relevant MAS Notices related to Technology Risk Management, there are situations where systems or applications designated MAS Critical may be fully managed by the CSP, particularly SaaS or white-labelling.
 >
 > In these situations, a contractual requirement should be included to ensure notification to the FI as soon as possible after the detection of a relevant incident. The FI is then required to notify the MAS within 60 minutes of receiving the notification.
 

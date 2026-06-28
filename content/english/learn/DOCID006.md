@@ -118,7 +118,7 @@ In 4.1.4,
 
 ---
 
-#### What three structural variables must be analyzed during a formal threat impact assessment?
+#### What three structural variables must be analysed during a formal threat impact assessment?
 
 In 4.3.1,
 > The FI should perform an analysis of the potential impact and consequences of the threats and vulnerabilities on the overall business and operations.
