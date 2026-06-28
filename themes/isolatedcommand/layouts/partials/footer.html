@@ -14,7 +14,7 @@
 
                       <ul class="social-icons">
             {{ range .Site.Params.social }}
-            <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}" style="color:red;"></i></a></li>
+            <li><a href="{{ .link | safeURL }}" aria-label="{{ .title | default `Social link` }}" title="{{ .title }}" target="_blank" rel="noopener"><i class="{{ .icon }}" style="color:red;" aria-hidden="true"></i></a></li>
             {{ end }}</ul>
         </div>
 

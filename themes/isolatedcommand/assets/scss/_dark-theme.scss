@@ -9,7 +9,7 @@
   --color-bg-darker: #0f0d0a;      /* Darker warm variant */
   --color-bg-accent: #2a2218;      /* Warm accent layer */
   --color-text-light: #E8E4E0;     /* Warm off-white */
-  --color-text-muted: #A8A49C;     /* Warm muted gray */
+  --color-text-muted: #C4BFB6;     /* Warm muted gray (raised for WCAG contrast) */
   --color-accent-1: #e80f12;       /* Red accent */
   --color-accent-2: #3071c4;       /* Blue accent */
   --glow-size: 0.1em;
@@ -794,4 +794,29 @@ img, video, iframe, table, pre {
     animation: none !important;
   }
   * { scroll-behavior: auto !important; }
+}
+
+// ===== ACCESSIBILITY (contrast + touch targets) =====
+// Keep section headings readable on the warm dark background
+.section-title h1, .section-title h2, .section-title h3,
+.section-title h4, .section-title h5, .section-title h6,
+.counter-item h3, .counter-item h4, .counter-item .count,
+.feature h2, .about h1, .about h2 {
+  color: var(--color-text-light) !important;
+}
+
+// Footer links: larger tap targets + spacing
+.footer .footer-menu li {
+  padding: 2px 0;
+}
+.footer .footer-menu li a {
+  display: inline-block;
+  padding: 8px 12px;
+}
+.footer .social-icons li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
 }
