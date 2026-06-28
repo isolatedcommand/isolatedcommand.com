@@ -228,8 +228,8 @@
 {{ end }}
 {{ end }}
 
-<!-- Google reCaptcha -->
-{{ if site.Params.contact.form.use_recaptcha }}
+<!-- Google reCaptcha — only on the contact page where the form renders -->
+{{ if and site.Params.contact.form.use_recaptcha site.Params.contact.form.enable (eq .RelPermalink "/contact/") }}
 <script src="https://www.google.com/recaptcha/api.js?render={{ site.Params.recaptcha_site_key }}"></script>
 <script>
   grecaptcha.ready(function() {
@@ -239,6 +239,7 @@
       });
     });
 </script>
-
-<script src="https://kit.fontawesome.com/92967daa95.js" crossorigin="anonymous"></script>
 {{ end }}
+
+<!-- Font Awesome (all pages) -->
+<script src="https://kit.fontawesome.com/92967daa95.js" crossorigin="anonymous"></script>
