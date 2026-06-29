@@ -1,0 +1,40 @@
+name: update-theme
+
+# Daily check for a newer Publisher release. If the pinned version changes,
+# commit the bump to main — the push triggers the Cloudflare build, which
+# deploys the site. The build itself also pulls @latest as a safety net.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.163.3"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+      - name: Install Hugo
+        run: |
+          curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" \
+            | sudo tar -xz -C /usr/local/bin hugo
+      - name: Pull latest Publisher
+        run: |
+          hugo mod get -u github.com/isolatedcommand/Publisher@latest
+          hugo mod tidy
+      - name: Commit bump (triggers Cloudflare build)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add go.mod go.sum
+          git commit -m "ci: bump Publisher to latest" && git push || echo "already up to date"

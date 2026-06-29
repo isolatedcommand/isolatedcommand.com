@@ -5,7 +5,7 @@
   "author": "IsolatedCommand",
   "scripts": {
     "dev": "hugo-extended server",
-    "build": "hugo-extended --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "build": "hugo-extended mod get -u github.com/isolatedcommand/Publisher@latest && hugo-extended mod tidy && hugo-extended --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "preview": "hugo-extended server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify"
   },
   "dependencies": {

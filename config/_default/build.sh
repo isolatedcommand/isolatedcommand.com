@@ -81,6 +81,11 @@ main() {
     git fetch --unshallow
   fi
 
+  # Pull the latest Publisher theme module so central UI changes propagate
+  echo "Updating Publisher theme module..."
+  hugo mod get -u github.com/isolatedcommand/Publisher@latest
+  hugo mod tidy
+
   # Build the site
   echo "Building the site..."
   hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
