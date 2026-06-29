@@ -15,7 +15,7 @@ author = "conanzhangtech"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 address_descriptors = false
 email = "hello@isolatedcommand.com"
-copyright = "Website developed and writtened by [@conanzhangtech](/who-we-are/conanzhangtech/) - Isolated Command 2026"
+copyright = "This website is built with [Publisher](https://publisher.devcomm.isolatedcommand.com) by [Isolated Command Developer Community](https://devcomm.isolatedcommand.com) - Isolated Command 2026"
 custom_script= ""
 google_tag_manager = ""
 
