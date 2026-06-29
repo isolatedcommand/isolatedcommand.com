@@ -16,3 +16,9 @@ hugo_stats.json
 go.sum
 yarn.l
 .env
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
